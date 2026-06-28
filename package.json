@@ -1,0 +1,29 @@
+{
+  "name": "faihoplo-qrypta-snap",
+  "version": "1.0.0",
+  "description": "Faihoplo QRYPTA Post-Quantum Hybrid Signature for MetaMask",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "mm-snap build",
+    "start": "mm-snap serve",
+    "test": "node test_snap.js"
+  },
+  "keywords": [
+    "metamask-snap",
+    "post-quantum",
+    "ML-DSA",
+    "FIPS-204",
+    "faihoplo",
+    "QRYPTA",
+    "Web3"
+  ],
+  "author": "Dr. Hyun-Tak Kim <htkim@faihoplo.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "homepage": "https://faihoplo.com",
+  "devDependencies": {
+    "@metamask/snaps-cli": "^8.4.1",
+    "@metamask/snaps-sdk": "^11.1.1",
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
