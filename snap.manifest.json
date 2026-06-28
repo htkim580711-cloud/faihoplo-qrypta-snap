@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "Faihoplo QRYPTA — Post-Quantum Hybrid Signature for Web3. EC-DSA + ML-DSA-65 (FIPS 204) with Software TEE ephemeral key method. Patent protected.",
+  "proposedName": "Faihoplo QRYPTA",
+  "source": {
+    "shasum": "w2b3F2AIXBLisCZJjvaXmohQXdL6V3gAMIEOIXBANR8=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "faihoplo-qrypta-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:network-access": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "platformVersion": "11.1.1",
+  "manifestVersion": "0.1"
+}
